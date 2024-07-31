@@ -1,0 +1,26 @@
+* {
+    font-family: monospace;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    gap: 1em;
+}
+
+h1{
+    color: red;
+}
+
+div{
+    border: 6px double black;
+    box-shadow: 4px 4px 4px black;
+    background: radial-gradient(white, rgb(233, 233, 233));
+    width: 300px;
+}
+
+img{
+    width: 40%;
+    height: auto;
+}
