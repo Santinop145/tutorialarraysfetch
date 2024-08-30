@@ -9,10 +9,6 @@ main{
     gap: 1em;
 }
 
-h1{
-    color: red;
-}
-
 div{
     border: 6px double black;
     box-shadow: 4px 4px 4px black;
@@ -21,6 +17,7 @@ div{
 }
 
 img{
-    width: 40%;
+    width: 250px;
+    max-height: 400px;
     height: auto;
 }
